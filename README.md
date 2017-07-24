@@ -1,2 +1,15 @@
-# TechAdvisor_Chatbot
-TechAdvisor is knowledge portal. The main users of the TechAdvisor are repair shop technicians. This provide information related to vehicle, repair process and insight of vehicle engineering. Proposed business case enable instantly and intelligent communication for TechAdvisor users even if their hands are dirty. An agent response for the technician query.
+# TechAdvisor Chatbot
+
+TechAdvisor Chatbot can be used by technicians at vehicle repair shops to get instant answers to questions like 'How much torque is required in compressor of BMW X5?', or 'Give me the steps to replace passenger airbags of Honda Amaze'. Edit
+Add topics
+
+## General overview
+
+This repository provides the c# code for the chat bot which uses the bot builder sdk provided by the microsoft bot framework.
+The training of NLP has been done on luis.ai platform.
+
+The data regarding the vehicles and procedures to repair each part is stored in elasticsearch. When the bot receives a query from the user, first the requirement is parsed out by sending the query to luis with app ID and key. Then, on the basis of the requirement which has been understood, the data is fetched from the elasticsearch ad presented to the user.
+
+```
+Note: You need to add your own microsoft app Id and password in the web.config file.
+```
