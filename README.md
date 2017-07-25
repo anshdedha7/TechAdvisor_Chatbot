@@ -18,3 +18,5 @@ The dialog being used by the chat bot can be found on the following location :
 ```
 /RC Assistant Bot/Dialogs/RcBotDialog.cs
 ```
+![alt text](/images/2.png)
+![alt text](/images/1.png)
