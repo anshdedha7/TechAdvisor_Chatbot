@@ -13,3 +13,8 @@ The data regarding the vehicles and procedures to repair each part is stored in 
 ```
 Note: You need to add your own microsoft app Id and password in the web.config file.
 ```
+## Dialog for chatbot
+The dialog being used by the chat bot can be found on the following location :
+```
+/RC Assistant Bot/Dialogs/rcdialog.cs
+```
