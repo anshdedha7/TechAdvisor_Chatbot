@@ -16,5 +16,5 @@ Note: You need to add your own microsoft app Id and password in the web.config f
 ## Dialog for chatbot
 The dialog being used by the chat bot can be found on the following location :
 ```
-/RC Assistant Bot/Dialogs/rcdialog.cs
+/RC Assistant Bot/Dialogs/RcBotDialog.cs
 ```
