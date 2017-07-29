@@ -22,3 +22,5 @@ The dialog being used by the chat bot can be found on the following location :
 ## Screenshots
 ![alt text](/images/2.png)
 ![alt text](/images/1.png)
+![alt text](/images/a.png)
+![alt text](/images/c.png)
